@@ -1,0 +1,12 @@
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+tensorflow>=2.9.0
+seaborn>=0.11.0
+tensorflow-metal>=1.0.0; sys_platform == 'darwin' and platform_machine == 'arm64'  # For Apple Silicon (M1/M2) GPU support
+tensorflow-macos>=2.9.0; sys_platform == 'darwin' and platform_machine == 'arm64'  # Optimized TF for macOS
+coremltools>=6.3.0  # For Neural Engine support via Core ML
+pillow>=9.0.0
+requests>=2.27.1
+wmi>=1.5.1; sys_platform == 'win32'  # For Windows GPU detection
